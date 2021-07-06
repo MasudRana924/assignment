@@ -2,6 +2,7 @@ body{
     font-family: 'Bona Nova', serif;
     margin:0;
 }
+
 h1{
     font-size: 30px;
     
@@ -26,13 +27,57 @@ h2{
     font-weight: 700;
     margin-top:20px;
 }
-section{
-   
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+
+    float: left;
+    width: auto;
+
+
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #888888;
+}
+
+.top-header{
+    height: 500px;
+    background-image:url("images/shape/7.png");
+    background-repeat:no-repeat;
+}
+.about-me{
+ 
+    background-image:url("images/shape/Frame\ 57.jpg");
+    background-repeat: no-repeat;
 }
 .flexible-container{
     display: flex;
     margin-bottom: 100px;;
 }
+
 .half-width{
     width: 40%;
     margin-left: 5%;
@@ -52,7 +97,7 @@ section{
 }
 
 .recipies-item{
-    height:500px;
+    height:450px;
     width:25%;
     margin-left:5%;
     margin-right: 1%;
