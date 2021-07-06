@@ -62,17 +62,19 @@ li a.active {
     color: white;
     background-color: #888888;
 }
+section {
+   
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 0px;
 
+}
 .top-header{
     height: 500px;
     background-image:url("images/shape/7.png");
     background-repeat:no-repeat;
 }
-.about-me{
- 
-    background-image:url("images/shape/Frame\ 57.jpg");
-    background-repeat: no-repeat;
-}
+
 .flexible-container{
     display: flex;
     margin-bottom: 100px;;
@@ -88,9 +90,12 @@ li a.active {
     width:70%;
 }
 .about-me{
-  background-image: url("images/shapes/Frame\ 57.jpg");
+    margin-bottom: 20 px;
+  height:500px;
+  background-image: url("images/shape/8.jpg");
   background-repeat: no-repeat;
 }
+
 .paragraph{
     color: gray;
     text-align: justify;
