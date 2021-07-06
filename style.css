@@ -60,7 +60,7 @@ li a:hover:not(.active) {
 
 li a.active {
     color: white;
-    background-color: #888888;
+    background-color: green;
 }
 section {
    
